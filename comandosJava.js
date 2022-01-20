@@ -10,7 +10,7 @@ let tamanho = 2;
 			document.body.prepend(div)
 		}
 
-        function AtualizaTamanho() {
+        function Atualizatamanho() {
             const h1 = document.querySelector("h1");
             h1.style.fontSize = `${tamanho}em`;
         }
